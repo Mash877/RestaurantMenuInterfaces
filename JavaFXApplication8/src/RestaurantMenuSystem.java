@@ -101,7 +101,7 @@ story.setMaxWidth(600);
                 welcome,
                 titleBox,
                 story,
-                enjoy,
+                enjoy
         );
 
         center.setAlignment(Pos.CENTER);
