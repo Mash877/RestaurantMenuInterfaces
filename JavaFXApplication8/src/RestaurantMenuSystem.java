@@ -101,7 +101,7 @@ story.setMaxWidth(600);
                 welcome,
                 titleBox,
                 story,
-                enjoy
+                enjoy,
         );
 
         center.setAlignment(Pos.CENTER);
@@ -136,18 +136,9 @@ story.setMaxWidth(600);
         root.setLeft(sidebar);
         root.setCenter(center);
 
-        //NAVIGATION 
+    
 
-        home.setOnAction(e -> root.setCenter(center));
-
-        menu.setOnAction(e -> root.setCenter(menuCenter));
-
-        cart.setOnAction(e -> root.setCenter(cartCenter));
-
-        menuBack.setOnAction(e -> root.setCenter(center));
-
-        cartBack.setOnAction(e -> root.setCenter(center));
-
+        
         // SCENE 
 
         Scene scene = new Scene(root, 1200, 700);
